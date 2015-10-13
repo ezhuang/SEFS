@@ -95,7 +95,7 @@ int byte_array_to_hex_array(unsigned char * byte_array, unsigned int num_bytes, 
         unsigned char buff[1024];
         for(i=0;i<num_bytes;++i){
                 sprintf(buff,"%02X",byte_array[i]);
-                printf("BUFF: %c-%c\n",buff[0],buff[1]);
+                //printf("BUFF: %c-%c\n",buff[0],buff[1]);
                 hex_string[2*i]=buff[0];
                 hex_string[2*i+1]=buff[1];
         }

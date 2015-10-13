@@ -4,6 +4,21 @@
 
 
 int main(){
+        
+        //register_user("ezhuang", "john1990", "test");
+        //register_user("hahaha","dadada","test");
+        //register_user("ddd","poo","test");
+        //match_user("ezhuang", "john1990", "test");
+        //match_user("hahaha","dadada","test");
+        //match_user("ezhuang", "john1990", "test");
+        //delete_user("hahaha","dadada","test");
+
+
+
+
+
+
+
         printf("Available commands:\n(1) register_user\n(2) delete_user\n(3) is_user_valid\n(4) match_user\n(5) change_user_password\n(6) quit\n\n\n");
 
         unsigned char command[1024];

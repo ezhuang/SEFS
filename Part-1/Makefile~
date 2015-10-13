@@ -1,4 +1,4 @@
 all:
-	gcc passwordManager.c -o pmanager -O3 -lcrypto 
+	gcc passwordManager.c -o pmanager  -lcrypto 
 clean:
-	rm -f pmanager 
+	rm -f pmanager
