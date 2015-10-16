@@ -1,6 +1,7 @@
 # include "util.h"
 /*# include "efsManagement.h" */
 # include "pManagement.h"
+# include "hmac.h"
 
 unsigned char * master_encdec_key ;
 unsigned char * master_hmac_key ;  
@@ -60,6 +61,10 @@ int system_health_check(){
 
 
 int main(int argc, char* argv[]){
+
+
+
+
         if(argc != 4){
                 printf("ERROR: Missing command line arguments\nUsage: ./efsmanager master_password user_password_file date_and_time_of_last_change\n");
                 return 1 ;
